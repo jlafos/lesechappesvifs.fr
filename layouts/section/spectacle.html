@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="list-unstyled">
+        {{ range .Data.Pages.ByWeight.Reverse }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ if isset .Params "info" }}
+            <span class="tag tag-default m-l-1">{{ .Params.info }}</span>
+          {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" . }}

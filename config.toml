@@ -1,0 +1,9 @@
+baseurl = "http://lesechappesvifs.fr/"
+languageCode = "fr-FR"
+title = "Les Échappés Vifs"
+theme = "bootstrap-bb"
+relativeURLs = true
+canonifyURLs = true
+
+[params]
+  description = ""

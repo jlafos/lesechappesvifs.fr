@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>{{ .Title }}</h1>
+      {{ if isset .Params "info" }}
+        <span class="tag tag-default">{{ .Params.info }}</span>
+      {{ end }}
+      {{ .Content }}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <hr>
+      <p>Tous les spectacles :</p>
+      <ul class="list-unstyled">
+        {{ range where .Site.Pages "Type" "spectacle" }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a>
+          {{ if isset .Params "info" }}
+            <span class="tag tag-default m-l-1">{{ .Params.info }}</span>
+          {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,59 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Les Échappés Vifs</h1>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Agenda 2016-17</h2>
+      <p>Blablabla...</p>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Spectacles</h2>
+      {{ range where .Site.Pages.ByWeight.Reverse "Type" "spectacle" }}
+        {{ if isset .Params "info" }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a>
+          <span class="tag tag-default m-l-1">{{ .Params.info }}</span>
+        </li>
+        {{ end }}
+      {{ end }}
+      <p class="m-t-1"><a href="/spectacle/">Tous les spectacles</a></p>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-4 m-b-2">
+      <h2>La compagnie</h2>
+      <p>Blablabla...</p>
+      <a href="/compagnie/">Plus d'infos</a>
+    </div>
+    <div class="col-md-4 m-b-2">
+      <h2>Actions culturelles</h2>
+      <p>Blablabla...</p>
+      <a href="/actions-culturelles/">Plus d'infos</a>
+    </div>
+    <div class="col-md-4 m-b-2">
+      <h2>Presse/media</h2>
+      <p>Blablabla...</p>
+      <a href="/presse-media/">Plus d'infos</a>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Contact</h2>
+      <p>Nous contacter</p>
+    </div>
+  </div>
+
+</div>
+
+{{ partial "footer.html" . }}
