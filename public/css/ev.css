@@ -1,0 +1,8 @@
+/*à cause de navbar-fixed-top */
+body {
+  padding-top: 70px;
+}
+
+.navbar-toggler {
+  color: #fff;
+}
