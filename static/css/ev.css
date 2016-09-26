@@ -6,3 +6,38 @@ body {
 .navbar-toggler {
   color: #fff;
 }
+
+
+/*** CAROUSEL TEXT ***/
+.carousel-content {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-text {
+  height: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.carousel-control,
+.carousel-control:hover,
+.carousel-control:focus {
+  text-shadow: none;
+  color: #666;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+.carousel-text .blockquote {
+  font-size: 1rem;
+  border-left: none;
+  text-align: center;
+}
+
+/*** /CAROUSEL TEXT ***/
