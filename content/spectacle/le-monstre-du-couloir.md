@@ -12,8 +12,7 @@ generique = "mise en scène __Philippe Baronnet__ | scénographie, accessoires _
 
 prod = "production déléguée Les Echappés vifs | coproduction Le Préau Centre dramatique Normandie – Vire | L’auteur est représenté dans les pays de langue française par l’Agence MCR, Marie Cécile Renauld, Paris, en accord avec Casarotto Ramsay, London"
 
-dossier = "truc.pdf"
-revuedepresse = "lalala.pdf"
+dossier = "/dl/MONS-dossier-presentation-2016-BIS.pdf"
 
 # dates
 [[calendrier]]

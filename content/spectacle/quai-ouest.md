@@ -12,6 +12,8 @@ generique = "mise en scène __Philippe Baronnet__ | dramaturgie __Marie-Cécile 
 
 prod = ""
 
+dossier = "/dl/OUEST-dossier-presentation-2016.pdf"
+
 calendriernotes = "création __novembre 2017__<br>disponible en tournée jusque __mars 2018__<br>reprise __automne 2018__"
 
 +++

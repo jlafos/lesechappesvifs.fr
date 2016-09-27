@@ -13,6 +13,9 @@ generique = "mise en scène __Philippe Baronnet__ | scénographie __Estelle Gaut
 
 prod = "production compagnie Les Échappés vifs ⎮ coproduction Le Préau Centre dramatique de Normandie – Vire, Le CDN de Haute – Normandie–Rouen ⎮ avec la participation artistique du Jeune théâtre national et du Studio-ESCA ⎮ avec le soutien du Ministère de la culture et de la communication–DRAC de Normandie, de la région Normandie et du département du Calvados ⎮ avec l'aide de l’Adami et de l'Odia Normandie ⎮ Les Échappés vifs, compagnie implantée à Vire, est associée avec Le Préau de 2016 à 2018. Les Théâtrales et la Maison Antoine Vitez coéditent le texte dans la collection Des classiques."
 
+dossier = "/dl/JEUNE-dossier-presentation-2016-BIS.pdf"
+revuedepresse = "/dl/JEUNE-revue-presse-latempete-1601-BIS.pdf"
+
 # dates
 [[calendrier]]
   cal = "19 octobre 2016 à 21h00"
