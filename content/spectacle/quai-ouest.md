@@ -5,6 +5,7 @@ tags = [""]
 title = "Quai Ouest"
 weight = "5"
 info = "création 2017/18"
+img = "quai-ouest.jpg"
 
 soustitre = "texte __Bernard-Marie Koltès__ | mise en scène __Philippe Baronnet__<br>avec __Félix Kysyl__, __Nine de Montal__, __Marie-Cécile Ouakil__, *en cours*."
 

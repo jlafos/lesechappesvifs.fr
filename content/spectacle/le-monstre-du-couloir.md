@@ -5,6 +5,7 @@ tags = [""]
 title = "Le monstre du couloir"
 weight = "2"
 info = "reprise novembre 2016"
+img = "le-monstre-du-couloir.jpg"
 
 soustitre = "texte __David Greig__ | traduction __Dominique Hollier__ | mise en scène __Philippe Baronnet__<br>avec __Eric Borgen__, __Olivia Chatain__\\*, __Pierre Cuq__, __Cyrille Lebourgeois__, __Marie-Cécile Ouakil__<br><small>\\* troupe permanente du Préau</small>"
 

@@ -6,4 +6,4 @@ title = "Contact"
 
 +++
 
-Comment nous contacter ?
+En construction...

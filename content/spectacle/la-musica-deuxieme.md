@@ -5,6 +5,7 @@ tags = [""]
 title = "La musica deuxième"
 weight = "4"
 info = "création janvier 2017"
+img = "la-musica-deuxieme.jpg"
 
 soustitre = "texte __Marguerite Duras__ | mise en scène __Philippe Baronnet__<br>avec __Vincent Garanger__, __Nine de Montal__"
 
@@ -32,4 +33,6 @@ dossier = "/dl/MUSIC-dossier-presentation-16-17-BIS.pdf"
 
 +++
 
-« _Ce sont des gens qui divorcent, qui ont habité Évreux au début de leur mariage, qui s'y retrouvent, dans un hôtel, le jour où leur divorce est prononcé. Je les ferais parler des heures et des heures. Dans la première partie de la nuit, leur ton est celui de la comédie, de la dispute. Dans la deuxième partie de la nuit, non, ils sont revenus à cet état intégral de l'amour désespéré, voix brisées du deuxième acte, défaites par la fatigue, ils sont toujours dans cette jeunesse du premier amour, effrayés._ » Vingt ans après la publication de _La Musica_, Marguerite Duras mène la pièce jusqu’à son achèvement : c’est _La Musica Deuxième_. Un texte simple, une situation, un état de l’amour qui semble se défaire mais qui est toujours là, percutant, universel.
+« _Ce sont des gens qui divorcent, qui ont habité Évreux au début de leur mariage, qui s'y retrouvent, dans un hôtel, le jour où leur divorce est prononcé. Je les ferais parler des heures et des heures. Dans la première partie de la nuit, leur ton est celui de la comédie, de la dispute. Dans la deuxième partie de la nuit, non, ils sont revenus à cet état intégral de l'amour désespéré, voix brisées du deuxième acte, défaites par la fatigue, ils sont toujours dans cette jeunesse du premier amour, effrayés._ »
+
+Vingt ans après la publication de _La Musica_, Marguerite Duras mène la pièce jusqu’à son achèvement : c’est _La Musica Deuxième_. Un texte simple, une situation, un état de l’amour qui semble se défaire mais qui est toujours là, percutant, universel.

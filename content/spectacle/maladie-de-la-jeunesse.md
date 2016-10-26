@@ -6,6 +6,7 @@ title = "Maladie de la jeunesse"
 weight = "3"
 info = "reprise octobre 2016"
 video = "175369434"
+img = "maladie-de-la-jeunesse.jpg"
 
 soustitre = "texte __Ferdinand Bruckner__ | traduction __Henri Christophe__, __Alexandre Plank__ | mise en scène __Philippe Baronnet__<br>avec __Clémentine Allain__, __Thomas Fitterer__, __Clovis Fouin__, __Félix Kysyl__, __Louise Grinberg__, __Aure Rodenbour__, __Laura Segré__"
 

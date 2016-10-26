@@ -3,17 +3,14 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
       <h1>{{ .Title }}</h1>
+      {{ if isset .Params "soustitre" }}
+        {{ .Params.soustitre | markdownify }}
+      {{ end }}
     </div>
   </div>
-  {{ if isset .Params "soustitre" }}
-  <div class="row m-t-1">
-    <div class="col-sm-12">
-      {{ .Params.soustitre | markdownify }}
-    </div>
-  </div>
-  {{ end }}
+
   <!-- Calendrier -->
   {{ if isset .Params "calendrier" }}
   <dl class="row m-t-2">
@@ -25,15 +22,38 @@
   {{ end }}
   {{ if isset .Params "calendriernotes" }}
   <div class="row m-t-2">
-    <div class="col-md-12">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
       {{ .Params.calendriernotes | markdownify }}
     </div>
   </div>
   {{ end }}
-  <hr>
+
+    <!-- Download -->
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
+        <hr>
+        <ul class="list-inline">
+          <li class="list-inline-item"><b>Téléchargements :</b></li>
+          {{ if isset .Params "dossier" }}
+            <li class="list-inline-item"><a href="{{ .Params.dossier }}">Dossier de présentation</a></li>
+          {{ end }}
+          {{ if isset .Params "revuedepresse" }}
+            <li class="list-inline-item"><a href="{{ .Params.revuedepresse }}">Revue de presse</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+  <!-- photo simple -->
+  <div class="row">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
+      <img class="img-fluid" src="/img/{{ .Params.img }}" alt="{{ .Title }}">
+    </div>
+  </div>
+
   <!-- Résumé -->
   <div class="row m-t-2">
-    <div class="col-md-12">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
       {{ .Content }}
     </div>
   </div>
@@ -41,7 +61,7 @@
   <!-- Presse -->
   {{ if isset .Params "presse" }}
   <div class="row m-t-2">
-    <div class="col-md-12">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
       <!-- Carousel -->
       <div id="carousel-presse" class="carousel carousel-text slide" data-ride="carousel" data-interval="7000">
         <div class="carousel-inner" role="listbox">
@@ -87,38 +107,27 @@
 
 
   <!-- Video -->
+  <!--
   {{ if isset .Params "video" }}
   <div class="embed-responsive embed-responsive-16by9 m-t-2">
     <iframe src="https://player.vimeo.com/video/{{ .Params.video }}" width="640" height="360" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
   {{ end }}
+  -->
 
   <!-- Generique -->
   <div class="row m-t-2">
-    <div class="col-md-12">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
       {{ .Params.generique | markdownify }}
     </div>
     {{ if isset .Params "prod" }}
-    <div class="col-md-12 m-t-1 small">
+    <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 m-t-1 small">
       {{ .Params.prod | markdownify }}
     </div>
     {{ end }}
   </div>
 
-  <!-- Download -->
-  <div class="row m-t-2">
-    <div class="col-md-12">
-      <ul class="list-inline">
-        <li class="list-inline-item"><b>Téléchargements :</b></li>
-        {{ if isset .Params "dossier" }}
-          <li class="list-inline-item"><a href="{{ .Params.dossier }}">Dossier de présentation</a></li>
-        {{ end }}
-        {{ if isset .Params "revuedepresse" }}
-          <li class="list-inline-item"><a href="{{ .Params.revuedepresse }}">Revue de presse</a></li>
-        {{ end }}
-      </ul>
-    </div>
-  </div>
+
 
   <!-- Tous les spectacles -->
   <div class="row m-t-3">

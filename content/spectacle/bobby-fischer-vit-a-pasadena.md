@@ -4,6 +4,7 @@ date = "2016-09-22T17:53:21+02:00"
 tags = [""]
 title = "Bobby Fischer vit à Pasadena"
 weight = "1"
+img = "bobby-fischer-vit-a-pasadena.jpg"
 
 soustitre = "texte __Lars Norén__ | traduction __Amélie Berg__ | mise en scène __Philippe Baronnet__<br>avec __Elya Birman__, __Frédéric Cherboeuf__\\*, __Samuel Churin__\\*, __Nine de Montal__, __Astrid Roos__\\*, __Camille de Sablet__\\*<br>\\* en alternance"
 

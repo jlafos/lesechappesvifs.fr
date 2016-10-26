@@ -5,6 +5,7 @@ tags = [""]
 title = ""
 weight = ""
 info = ""
+img = ""
 
 soustitre = "texte ____ | traduction ____ | mise en scène __Philippe Baronnet__<br>avec __Acteur 1__, __Acteur 2__"
 
