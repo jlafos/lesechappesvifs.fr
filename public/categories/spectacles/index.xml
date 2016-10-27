@@ -1,77 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Les Échappés Vifs</title>
-    <link>http://lesechappesvifs.fr/tags/</link>
-    <description>Recent content on Les Échappés Vifs</description>
+    <title>Spectacles on Les Échappés Vifs</title>
+    <link>http://lesechappesvifs.fr/categories/spectacles/</link>
+    <description>Recent content in Spectacles on Les Échappés Vifs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-FR</language>
-    <lastBuildDate>Thu, 22 Sep 2016 17:51:08 +0200</lastBuildDate>
-    <atom:link href="http://lesechappesvifs.fr/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Contact</title>
-      <link>http://lesechappesvifs.fr/contact/</link>
-      <pubDate>Thu, 22 Sep 2016 17:51:08 +0200</pubDate>
-      
-      <guid>http://lesechappesvifs.fr/contact/</guid>
-      <description>
-
-&lt;h3 id=&#34;artistique&#34;&gt;Artistique&lt;/h3&gt;
-
-&lt;p&gt;Philippe Baronnet&lt;/p&gt;
-
-&lt;h3 id=&#34;production&#34;&gt;Production&lt;/h3&gt;
-
-&lt;p&gt;Jérôme Broggini&lt;br&gt;
-&lt;a href=&#34;mailto:compagnie@lesechappesvifs.fr&#34;&gt;compagnie@lesechappesvifs.fr&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;presse&#34;&gt;Presse&lt;/h3&gt;
-
-&lt;p&gt;Francesca Magni&lt;/p&gt;
-
-&lt;h3 id=&#34;les-échappés-vifs&#34;&gt;Les Échappés Vifs&lt;/h3&gt;
-
-&lt;p&gt;Association Loi de 1901&lt;/p&gt;
-
-&lt;p&gt;23, Place Saint-Thomas&lt;br&gt;
-14500 VIRE&lt;/p&gt;
-
-&lt;p&gt;SIRET 79132353800029&lt;br&gt;
-APE 9001Z&lt;br&gt;
-License 2-1066760&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Presse et Media</title>
-      <link>http://lesechappesvifs.fr/presse-media/</link>
-      <pubDate>Thu, 22 Sep 2016 17:51:02 +0200</pubDate>
-      
-      <guid>http://lesechappesvifs.fr/presse-media/</guid>
-      <description>&lt;p&gt;Plop&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Actions culturelles</title>
-      <link>http://lesechappesvifs.fr/actions-culturelles/</link>
-      <pubDate>Thu, 22 Sep 2016 17:50:56 +0200</pubDate>
-      
-      <guid>http://lesechappesvifs.fr/actions-culturelles/</guid>
-      <description>&lt;p&gt;En construction&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Compagnie</title>
-      <link>http://lesechappesvifs.fr/compagnie/</link>
-      <pubDate>Thu, 22 Sep 2016 17:50:42 +0200</pubDate>
-      
-      <guid>http://lesechappesvifs.fr/compagnie/</guid>
-      <description>&lt;p&gt;En construction&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Thu, 22 Sep 2016 17:53:21 +0200</lastBuildDate>
+    <atom:link href="http://lesechappesvifs.fr/categories/spectacles/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bobby Fischer vit à Pasadena</title>

@@ -1,0 +1,51 @@
+{{ partial "header.html" . }}
+{{ partial "nav.html" . }}
+
+<div class="container">
+  <div class="row m-t-1">
+    <div class="col-md-12">
+      <h1>{{ .Title }}</h1>
+      {{ if isset .Params "soustitre" }}
+        {{ .Params.soustitre | markdownify }}
+      {{ end }}
+    </div>
+  </div>
+
+  {{ range where .Site.Pages.ByWeight.Reverse "Type" "spectacle" }}
+    <div class="row m-t-1">
+      <div class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12">
+        <h2 class="h4">{{ .Title }}</h2>
+        <ul class="list-inline">
+          {{ if isset .Params "dossier" }}
+            <li class="list-inline-item"><a href="{{ .Params.dossier }}">Dossier de présentation</a></li>
+          {{ end }}
+          {{ if isset .Params "revuedepresse" }}
+            <li class="list-inline-item"><a href="{{ .Params.revuedepresse }}">Revue de presse</a></li>
+          {{ end }}
+          {{ if isset .Params "dossierphotos" }}
+            <li class="list-inline-item"><a href="{{ .Params.dossierphotos }}">Photos</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  {{ end }}
+
+  <!-- Tous les spectacles -->
+  <div class="row m-t-3">
+    <div class="col-md-12">
+      <hr>
+      <p>Tous les spectacles :</p>
+      <ul class="list-unstyled">
+        {{ range where .Site.Pages.ByWeight.Reverse "Type" "spectacle" }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ if isset .Params "info" }}
+            <span class="tag tag-default m-l-1">{{ .Params.info }}</span>
+          {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" . }}
