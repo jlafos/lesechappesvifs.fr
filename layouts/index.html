@@ -1,27 +1,31 @@
 {{ partial "header.html" . }}
 {{ partial "nav.html" . }}
 
-<div class="container">
+<div class="container-fluid container-logo bg-primary">
   <div class="row">
-    <div class="col-md-12">
-      <h1>Les Échappés Vifs – SITE EN CONSTRUCTION</h1>
+    <div class="col-md-6 logo m-t-2">
+      <img src="{{ .Site.Params.logo }}" alt="" class="img-fluid">
     </div>
   </div>
-  <hr>
+</div>
+
+<div class="container m-t-2">
   <div class="row">
     <div class="col-md-12">
-      <a href="#agenda" data-toggle="collapse"><h2>Agenda 2016-17</h2></a>
-      <div class="collapse" id="agenda">
+      <a class="btn btn-lg btn-primary" href="#agenda" data-toggle="collapse">Agenda 2016-17</a>
+      <div class="collapse m-t-1" id="agenda">
         <div class="card card-block">
           {{ range where .Site.Pages.ByWeight.Reverse "Type" "spectacles" }}
             {{ if isset .Params "calendrier" }}
-            <a href="{{ .RelPermalink }}">
-              <h3 class="text-xs-left text-sm-center">{{ .Title }}</h3>
-            </a>
+            <div class="row">
+              <a href="{{ .RelPermalink }}">
+                <h3 class="col-lg-10 offset-lg-1 col-md-10 offset-md-1 col-sm-12 m-t-2">{{ .Title }}</h3>
+              </a>
+            </div>
             <dl class="row">
               {{ range .Params.calendrier  }}
-              <dt class="col-sm-6 text-sm-right">{{ .cal | safeHTML }}</dt>
-              <dd class="col-sm-6">{{ .lieu | safeHTML }}</dd>
+              <dt class="col-sm-4 col-md-4 col-lg-4 offset-md-1 offset-lg-1">{{ .cal | safeHTML }}</dt>
+              <dd class="col-sm-8 col-md-7 col-lg-7">{{ .lieu | safeHTML }}</dd>
               {{ end }}
             </dl>
             {{ end }}
@@ -31,20 +35,15 @@
     </div>
   </div>
   <div class="row m-t-1">
-    <div class="col-md-12">
-      <a href="/spectacles/">
-        <h2>Spectacles</h2>
-      </a>
-    </div>
     {{ range where .Site.Pages.ByWeight.Reverse "Type" "spectacles" }}
       {{ if isset .Params "info" }}
-        <div class="col-md-6">
+        <div class="col-md-6 m-t-1">
           <div class="card card-inverse">
             <a href="{{ .Permalink }}">
               <img class="card-img img-fluid" src="/img/{{ .Params.img }}" alt="Card image">
               <div class="card-img-overlay">
                 <h4 class="card-title">{{ .Title }}</h4>
-                 <p class="card-text"><span class="tag tag-default m-l-1">{{ .Params.info }}</span></p>
+                 <p class="card-text"><span class="tag tag-default">{{ .Params.info }}</span></p>
               </div>
             </a>
           </div>
@@ -52,12 +51,12 @@
       {{ end }}
     {{ end }}
   </div>
-  <div class="row">
-    <div class="col-md-12">
-      <p class="text-sm-center"><a href="/spectacles/">Tous les spectacles</a></p>
+  <div class="row m-t-2 m-b-2">
+    <div class="col-md-12 text-md-right">
+      <a class="btn btn-lg btn-primary" href="/spectacles/">Tous les spectacles</a>
     </div>
   </div>
-  <hr>
+  <!-- <hr>
   <div class="row">
     <div class="col-md-4 m-b-2">
       <h2>La compagnie</h2>
@@ -78,7 +77,7 @@
       <h2>Contact</h2>
       <a href="/contact/">Nous contacter</a>
     </div>
-  </div>
+  </div> -->
 
 </div>
 

@@ -2,7 +2,7 @@
 categories = ["spectacles"]
 date = "2016-09-22T17:52:31+02:00"
 tags = [""]
-title = "Le monstre du couloir"
+title = "Le Monstre du couloir"
 weight = "2"
 info = "reprise novembre 2016"
 img = "le-monstre-du-couloir.jpg"
@@ -15,6 +15,13 @@ prod = "production déléguée Les Echappés vifs | coproduction Le Préau Cen
 
 dossier = "/dl/MONS-dossier-presentation-2016-BIS.pdf"
 dossierphotos = "/dl/monstre-photos.zip"
+
+imgs = [
+  "le-monstre-du-couloir.jpg",
+  "le-monstre-du-couloir1.jpg",
+  "le-monstre-du-couloir2.jpg",
+  "le-monstre-du-couloir3.jpg",
+]
 
 # dates
 [[calendrier]]

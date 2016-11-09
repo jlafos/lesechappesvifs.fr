@@ -7,7 +7,7 @@
       <h1>Tous les spectacles</h1>
     </div>
     {{ range where .Site.Pages.ByWeight.Reverse "Type" "spectacles" }}
-        <div class="col-md-6">
+        <div class="col-md-6 m-t-1">
           <div class="card card-inverse">
             <a href="{{ .RelPermalink }}">
               <img class="card-img img-fluid" src="/img/{{ .Params.img }}" alt="{{ .Title }}">

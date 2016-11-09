@@ -1,12 +1,128 @@
 /*à cause de navbar-fixed-top */
 body {
   padding-top: 70px;
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+  background-color: #fafafa;
+}
+
+.bg-primary {
+  background-color: #ff6633 !important;
+}
+
+.tag-default {
+    background-color: #ff6633; !important;
+}
+
+.card-text .tag-default {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+a {
+  color: #ff6633;
+}
+
+a:active,
+a:hover {
+  color: #dd4411;
+  text-decoration: none;
+}
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
 }
 
 .navbar-toggler {
   color: #fff;
 }
 
+.nav {
+  /*font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;*/
+}
+
+.bg-primary {
+  background: #ff6633; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #ff7744 , #ee5522); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #ff7744 , #ee5522); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #ff7744 , #ee5522); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #ff7744 , #ee5522); /* Standard syntax */
+}
+
+.btn {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background: #ff6633; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #ff7744 , #ee5522); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #ff7744 , #ee5522); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #ff7744 , #ee5522); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #ff7744 , #ee5522); /* Standard syntax */
+  border-color: #ff7744;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background: #ee5522 !important;
+  border-color: #ee5522 !important;
+}
+
+.navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+h1, h2, h3, h4,
+.h1, .h2, .h3, .h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1, .h1 {
+  font-size: 3rem;
+}
+
+h2, .h2 {
+  font-size: 2.5rem;
+}
+
+h3, .h3 {
+  font-size: 2.2rem;
+}
+
+h4, .h4 {
+  font-size: 2rem;
+}
+
+.container-logo {
+  margin-top: -2rem;
+}
+
+.logo {
+  float:right;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  background: #f0f0f0; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #f0f0f0 , #fafafa); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #f0f0f0 , #fafafa); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #f0f0f0 , #fafafa); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #f0f0f0 , #fafafa);
+}
+
+.card-img {
+  border-radius: 0;
+}
 
 /*** CAROUSEL TEXT ***/
 .carousel-content {

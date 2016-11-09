@@ -7,3 +7,4 @@ canonifyURLs = true
 
 [params]
   description = ""
+  logo = "/img/logoev.svg"
